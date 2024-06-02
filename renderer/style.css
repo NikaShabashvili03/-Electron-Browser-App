@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#control-panel {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+#url-input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+#tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.tab:hover {
+  background-color: #e1e1e1;
+}
